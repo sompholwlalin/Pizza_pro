@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+    background-image: url(https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=1740&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    width: 100%;
+    height: 100%;
+    font-size: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+
+h1 {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+/* .blurred-box {
+    position: relative;
+    width: 250px;
+    height: 350px;
+
+    background: inherit;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.blurred-box::after {
+    content: '';
+    width: 300px;
+    height: 300px;
+    background: inherit;
+    position: absolute;
+    left: -20px;
+    right: 0;
+    top: -25px;
+    bottom: 0;
+    box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.05);
+    filter: blur(10px);
+}
+
+.user-login-box {
+    position: relative;
+    margin-top: 30px;
+    text-align: center;
+    z-index: 1;
+}
+
+.user-login-box > * {
+    display: inline-block;
+    width: 200px;
+}
+
+.user-icon {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-radius: 50%;
+    background-size: contain;
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Fvector-art%2F9900516-pizza-cafe-logo-pizza-icon-illustration-vector-graphic-emblem-pizza-of-perfect-for-fast-food-restaurant-simple-flat-style-pizza-logo&psig=AOvVaw1o37G-X9y-W1hOux5U_7Lr&ust=1698773198079000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIjfi8ylnoIDFQAAAAAdAAAAABAD);
+}
+
+.user-name {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+input.user-username {
+    margin-bottom: 4px !important;
+}
+
+input.user-username, input.user-password {
+    display: block;
+    width: 200px;
+    height: 18px;
+    opacity: 0.4;
+    border-radius: 2px;
+    padding: 15px 15px;
+    border: none;
+    margin: 0 auto;
+    outline: none;
+}
+ */

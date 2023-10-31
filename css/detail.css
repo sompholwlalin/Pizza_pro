@@ -1,0 +1,156 @@
+/* CSS for Detail Page */
+.detail-container {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.detail-box {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #fca311;
+    padding: 20px;
+}
+
+.image-container {
+    text-align: left;
+}
+
+.image-container img {
+    width: 400px;
+    height: 400px;
+}
+
+.info-container {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.info-container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.info-container p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.add-to-cart-button {
+    text-decoration: none;
+    background-color: #fff;
+    color: #fca311;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* กำหนดขนาดของหน้า */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+/* กล่องสีส้มที่ใส่รายละเอียด */
+.detail-box {
+    display: flex;
+    justify-content: center; /* จัดให้เป็นกลางแนวนอน */
+    align-items: center; /* จัดให้เป็นกลางแนวตั้ง */
+    /* background-color: #ffa500; */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto; /* กำหนด margin:auto เพื่อจัดกล่องกลางหน้าจอ */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1000px; /* กำหนดขนาดสูงสุดของกล่อง */
+}
+
+
+/* ส่วนรูปภาพด้านซ้ายมือ */
+.image-container {
+    margin-right: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* ส่วนรายละเอียดด้านขวามือ */
+.info-container {
+    flex: 1;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+select, input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 16px;
+}
+
+/* ปุ่ม Add to Cart และ Back */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-to-cart-button {
+    padding: 10px 20px;
+    background-color: #ff5733;
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.add-to-cart-button:hover{
+    background-color: #ff2600;
+}
+
+/* ปุ่ม Back ต้องอยู่ทางขวาสุด */
+.back-button {
+    order: 1;
+}
+
+#quantity {
+    width: 200px; /* กำหนดความกว้าง */
+}
+
+.back-button {
+    padding: 10px 20px;
+    background-color: #ff5733;
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    text-decoration: none;
+    text-align: center;
+}
+
+.back-button:hover {
+    background-color: #ff2600;
+}

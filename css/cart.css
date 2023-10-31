@@ -1,0 +1,81 @@
+/* เพิ่มสไตล์ให้กับส่วนของตะกร้าสินค้า */
+.cart-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* เพิ่มสไตล์ให้กับตาราง */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+/* เพิ่มสไตล์ให้กับเฮดเดอร์ของเพจ */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* เพิ่มสไตล์ให้กับปุ่มที่ใช้สำหรับการอัพเดทและลบสินค้า */
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* เพิ่มสไตล์ให้กับหัวตาราง */
+th {
+    background-color: #007bff;
+    color: #fff;
+    text-align: left;
+}
+
+/* เพิ่มสไตล์ให้กับส่วนที่แสดงราคารวมทั้งหมด */
+.cart-container td:last-child {
+    font-weight: bold;
+}
+
+/* เพิ่มสไตล์ให้กับรูปภาพ */
+img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+/* เพิ่มสไตล์ให้กับปุ่มอัพเดท */
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* เพิ่มสไตล์ให้กับปุ่มลบ */
+input[type="submit"][value="ลบสินค้า"] {
+    background-color: #ff0000;
+}
+
+/* เพิ่มสไตล์ให้กับเท็กสต์ราคารวมทั้งหมด */
+.cart-container td[colspan="4"][align="right"] {
+    text-align: right;
+}
